@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+.App {
+
+  background-color: black;
+  min-height: 100vh;
+}
+
+.topright a {
+  color: black;
+  text-decoration: none;
+  margin: 0px 25px;
+}
+
+.list-link-component {
+  color: rgb(0,0,0,0.7);
+  width: 300px;
+  display:flex;
+  justify-content: center;
+}
+
+.list-link-component p {
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.list-link-component p:hover {
+  color: rgba(255, 166, 0, 0.733);
+  transition: 0.4s all ease-in;
+}
+
+.list-link-component .search {
+  border: 1px solid orange;
+  background-color: transparent;
+  width: 250px;
+  height: 40px;
+  color: black;
+
+  border-radius: 5px;
+
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-link-component input {
+  height: 95%;
+  outline: none;
+  border: none;
+background-color: transparent;
+  padding-left:15px;
+  width: 80%;
+  color: black;
+}
+.searchicon{
+  width: 20%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.banner{
+  height: calc(100vh - 110px);
+
+}
+.banner:hover{
+  cursor: pointer;
+    transition: 0.4s all ease-in;
+}
+.banner:hover .publish-text p{
+  /* color: orange !important; */
+  cursor: pointer;
+    transition: 0.4s all ease-in-out;
+}
+.changingtopic:hover p{
+  color: orange !important;
+  cursor: pointer;
+  transition: 0.5s all ease-in;
+}
